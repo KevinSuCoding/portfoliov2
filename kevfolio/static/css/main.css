@@ -136,7 +136,11 @@ footer {
 
     
 }
-
+#home-icon { 
+    position: absolute;
+    top: 5%;
+    left: 5rem;
+}
 
 #header {
 		-moz-animation: header 1s 2.25s forwards;
