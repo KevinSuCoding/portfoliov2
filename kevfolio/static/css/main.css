@@ -17,6 +17,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
     color: #D9D9D9;
+
     }
 
 article, aside, details, figcaption, figure,
@@ -116,15 +117,35 @@ a {
     transform: translateY(-50%);
     color: #D9D9D9;
 }
+
+
 /* banner section */
 #banner { 
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+	padding-left: 2rem;
+	
+}
+#banner p { 
+	font-size: 1rem;
+}
+#banner h2{
+	font-weight:600;
+	margin-bottom: 0;
+}
+#salutation{
+	margin-bottom: 0;
+	color: #FF6D3A;
 }
 #scrollspy-banner{
-    font-size: 5rem;
+    font-size: 6rem;
+	font-weight: bolder;
+	margin-bottom: 0;
+}
+#overview{
+	color: #B3B3B3;
 }
 /* case study section */
 

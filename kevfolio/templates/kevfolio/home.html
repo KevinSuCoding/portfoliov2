@@ -15,7 +15,7 @@
 		<nav id="navbar-vertical">
 			<ul class='nav flex-column'>
 				<li class='nav-item'>
-					<a class= 'nav-link' href="#banner">Overview</a>
+					<a class= 'nav-link ' href="#banner">Overview</a>
 				</li>
 				<li class='nav-item'>
 					<a class= 'nav-link' href="#scrollspy-case-studies">Case Studies</a>
@@ -29,25 +29,34 @@
 		<div data-bs-spy='scroll' data-bs-target="#navbar-vertical"  data-bs-smooth-scroll="true"  tabindex="0">
 			<div id="main-container" class="container-fluid">
 				<div class="container">
-					
+					<div id="home-icon">
+						<span >Kevinsu.do.coding</span>
+					  </div>	
 					<!-- Banner Section -->
 					<div id="banner">
-						<div id="home-icon">
-							<span >Kevinsudocoding</span>
-  
-					  	</div>
-
-						<h1 id="scrollspy-banner">Kevin Lao</h1>
-						<p>Web Developer &nbsp;&bull;&nbsp; 2+ year &nbsp;&nbsp;</p>
-						{% comment %} <nav>
-							<ul>
-								<li><a href="#" class="bi bi-facebook"><span class="label"></span></a></li>
-								<li><a href="#" class="bi bi-github"><span class="label"></span></a></li>
-								<li><a href="#" class="bi bi-envelope"><span class="label"></span></a></li>
-
-							</ul>
-						</nav> {% endcomment %}
-					</div>
+						
+						<div class="row">
+							<div class="col ">
+								<p id="salutation">Hi, my name is</p>
+								<h1 id="scrollspy-banner">Kevin Lao</h1>
+								<h2>Web Developer</h2>
+								{% comment %} <p>Web Developer &nbsp;&bull;&nbsp; 2+ year &nbsp;&nbsp;</p> {% endcomment %}
+								<p id="overview">An aspiring Data Engineer located in the Philippines with a passion for Cloud/Security. </p>
+							{% comment %} <nav>
+								<ul>
+									<li><a href="#" class="bi bi-facebook"><span class="label"></span></a></li>
+									<li><a href="#" class="bi bi-github"><span class="label"></span></a></li>
+									<li><a href="#" class="bi bi-envelope"><span class="label"></span></a></li>
+	
+								</ul>
+							</nav> {% endcomment %}
+							</div>
+							
+							<div class="col pl-4">
+								
+							</div>
+						</div>
+					</div>	
 				</div>
 
 				<div class="container">
